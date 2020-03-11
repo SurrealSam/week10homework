@@ -1,5 +1,7 @@
 # week10homework
 
+This is a node app that will allow you to add different members to your team using inquirer to input information and then appending that info to an html page. It's not pretty but it works.
+
 Step 1) NPM Install
 Step 2) node app.js
 Step 3) Open team.html in browser
