@@ -108,7 +108,7 @@ inquirer.prompt(questions).then(answers => {
                 ` + office + school + github + githubusername + `
             </div>
     </div > `;
-        var result = data.replace(/\<div id="root">/g, '<div id="root">' + toPrepend);
+        var result = data.replace(/\<div class="row" id="root">/g, '<div class="row" id="root">' + toPrepend);
 
         fs.writeFile('./output/team.html', result, 'utf8', function (err) {
             if (err) return console.log(err);
